@@ -16,7 +16,10 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        
         skscene = CustomScebe(size: view.bounds.size)
+        
+        // Change
     }
     
 }
